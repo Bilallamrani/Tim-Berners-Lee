@@ -1,0 +1,29 @@
+
+img {
+    width: 40%;
+    position: absolute;
+    left: 80px;
+    padding-top: 0px;
+}
+
+.logo {
+    color: rgb(0, 47, 255);
+}
+
+.subtit{
+
+    text-decoration: underline;
+}
+
+.info{
+    padding-top: 130px;
+}
+
+.info .a1{
+    text-align: center;
+    position: relative;
+}
+
+span{
+    color:bleu;
+}

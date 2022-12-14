@@ -1,0 +1,40 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    color: rgb(0, 47, 255);
+}
+
+.Subtit .a1{
+    color: gray;
+}
+
+.info{
+    padding-top: 130px;
+}
+
+.info .a1{
+    padding-left: 20px;
+}
+
+span{
+    color:bleu;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+button{
+    color: blue;
+}
+
+.Texte{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
