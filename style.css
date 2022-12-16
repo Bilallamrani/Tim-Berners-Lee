@@ -1,40 +1,235 @@
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+*{
+    margin:3px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Linux Libertine', Georgia, Times, serif;
+    line-height: 1.3;
+} 
+
+
+nav {
+    height: 40px;
+    background: rgba(6, 6, 81, 0.892);
 }
-img {
-    width: 100%;
-    padding-top: 0px;
+
+nav img{
+    width: 150px;
+    position: absolute;
+    top: 13px;
+    padding: 0px;
+}
+
+nav ul{
+    float:right;
+    margin-right: 15px;
+}
+
+nav ul li{
+    display: none;
+    margin: 0 5px;
+    margin-top: 10px;
+    /* position: relative;  */
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 12px;
 }
 
-.logo {
-    color: rgb(0, 47, 255);
+.containerborder {
+    border: solid 1px rgb(173, 168, 168);
 }
 
-.Subtit .a1{
+.border {
+    border: solid 1px rgb(173, 168, 168);
+    width: 95%;
+    margin-left: 10px;
+    font-size: 15px;
+    align-items: center;
+    height: 460px;
+}
+
+.Title{
+    padding-top: -50px;
+    padding-bottom: 15px;
+
+}
+.Title h2 {
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.Title p4 {
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+
+img { 
+    padding-left: 25px;
+    width: 80%;
+    padding-top: 5px;
+    /* align-content: center; */
+    
+}
+
+.logo button{
+    color: rgb(68, 68, 251);
+    font-size: 12px; 
+}
+
+.Ref{
+    font-size: 11px;
+}
+
+.Ref p1{
     color: gray;
+    font-size: 13px;
 }
 
-.info{
-    padding-top: 130px;
+.Ref p3{
+    color: gray;
+    font-size: 13px;
 }
 
-.info .a1{
-    padding-left: 20px;
+.info ul{
+    padding: 20px;
+    list-style-type: none;
+    color: rgb(26, 24, 24);
+    font-size: small;
+}
+
+.info ul a1{
+    padding-left: 55px;
+    font-size: 15px;
+    margin-left: -50px;
+    list-style-type: none;
+}
+
+
+.info ul a2{
+    font-size: 14px;
+    margin-left: 85px;
+    }
+
+.info ul a3{
+    margin-left: 45px;
+    }
+
+.info ul a7{
+    margin-left: 60px;
+}
+
+.Texte{
+    margin: 8px;
+    color: rgb(26, 24, 24);
+    font-size: 15px;
 }
 
 span{
     color:bleu;
 }
-a{
+c{
     text-decoration: none;
-    color: blue;
+    color: rgb(68, 68, 251);
 }
 
 button{
-    color: blue;
+    color: rgb(68, 68, 251);
 }
 
-.Texte{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+label #btn {
+    color:white;
+    font-size: 20px;
+    float: right;
+    line-height: 45px;
+    margin-right: 15px;
 }
+
+
+@media only screen and (min-width: 650px){
+    label #btn {
+        display: none;
+    } 
+
+    nav ul li{
+        display: inline-block;
+    }
+
+    .containerborder {
+        border: solid 1px rgb(173, 168, 168);
+        width: 58%;
+        height: 89vh;
+    }
+    
+    .border{
+        border: solid 1px rgb(173, 168, 168);
+        width: 49%;
+        height: 430px;
+        margin-left: 10px;
+        font-size: 15px;
+        float: right;
+    }
+
+    .Ref{
+        font-size:10px;
+    }
+
+    .info ul{
+        font-size: 13px;
+        margin-left: -10px;
+    }
+    
+    .info ul a1{
+        font-size: 14px;
+        margin-left: -50px;
+    }
+
+    .info ul a2{
+        font-size: 14px;
+        margin-left: 40px;
+    }
+
+    .info ul a3{
+        margin-right: -35px;
+    }
+
+    .info ul a7{
+        margin-left: 10px;
+    }
+
+    .Texte{
+        overflow: hidden;
+    }
+    }
+
+
+@media (min-width: 850px)
+{
+    label #btn {
+        display: none;
+    } 
+
+    .containerborder {
+        border: solid 1px rgb(173, 168, 168);
+        width: 50%;
+        height: 86vh;
+    }
+
+    .border {
+        border: solid 1px rgb(173, 168, 168);
+        width: 35%;
+        height: 455px;
+        margin-left: 10px;
+        font-size: 15px;
+        align-items: center;
+        float: right;
+}
+} 
