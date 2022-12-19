@@ -9,7 +9,7 @@
 
 nav {
     height: 40px;
-    background: rgba(6, 6, 81, 0.892);
+    background: rgba(5, 5, 67, 0.951);
 }
 
 nav img{
@@ -34,6 +34,15 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
+}
+
+.nav ul li a Subscribe {
+    background: #c50909e8;
+    color:#fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
 }
 
 .links {
@@ -155,12 +164,14 @@ label #btn {
 
 
 @media only screen and (min-width: 650px){
+
     label #btn {
         display: none;
     } 
 
     nav ul li{
         display: inline-block;
+        margin-left: 12px;
     }
 
     .containerborder {
@@ -208,11 +219,11 @@ label #btn {
     .Texte{
         overflow: hidden;
     }
-    }
+}
 
 
-@media (min-width: 850px)
-{
+@media (min-width: 850px){
+
     label #btn {
         display: none;
     } 
@@ -231,5 +242,5 @@ label #btn {
         font-size: 15px;
         align-items: center;
         float: right;
-}
+    }
 } 
